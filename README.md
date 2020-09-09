@@ -61,7 +61,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/nisargp08/DC-P1-R-404.git
 
 # Install dependencies
 $ npm install
