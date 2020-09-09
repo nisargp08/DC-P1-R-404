@@ -32,12 +32,12 @@ body {
   margin: 3rem 0;
 }
 .hero__image {
-  padding: 0 40px;
+  margin: 0 40px;
 }
 .hero__image img {
   max-width: 100%;
   height: auto;
-  padding: 40px 0;
+  margin: 40px 0;
 }
 .hero__message {
   margin-left: 24px;
@@ -92,4 +92,56 @@ body {
   line-height: 17px;
   /* identical to box height */
   color: #333333;
+}
+
+/* Media Quaries */
+/* Small (sm) */
+@media screen and (min-width: 640px) {
+}
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  .hero {
+    justify-content: space-between;
+  }
+  .hero__title span {
+    margin-top: 40px;
+    margin-left: 75px;
+  }
+  .hero__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  .hero__message h1 {
+    font-size: 42px;
+  }
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  .hero__body__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__body {
+    max-width: 1280px;
+    padding: 0px;
+  }
+  .hero__message h1 {
+    font-size: 64px;
+    line-height: 95px;
+  }
+  .hero__message p {
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    width: 70%;
+  }
 }
